@@ -1,2 +1,2 @@
 # prool_minetest_mod
-mods for minetest
+prool's mods and files for minetest
