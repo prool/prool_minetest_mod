@@ -7,11 +7,11 @@ end
 local old_on_place = def.on_place
 def.on_place = function(itemstack, placer, pointed_thing)
 	if pointed_thing and pointed_thing.above then
-		if pointed_thing.above.y <= 0 then
-			return old_on_place(itemstack, placer, pointed_thing)
-		else
+		-- if pointed_thing.above.y <= 0 then
+		--	return old_on_place(itemstack, placer, pointed_thing)
+		-- else
 			return itemstack
-		end
+		-- end
 	end
 end
 
